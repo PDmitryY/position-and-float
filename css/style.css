@@ -1,0 +1,29 @@
+body {
+    height: 2000;
+}
+
+.page1 .page2 .page3 {
+    height: 750 px;
+    width: 520 px;
+    border: solid 2px;
+}
+
+.page1 {
+    
+}
+
+.page2 {
+    
+}
+
+.page3 {
+    
+}
+
+.share{
+    position: fixed;
+    height: 70 px;
+    width: 80 px;
+    border: solid 1px;
+    background: chocolate;
+}
