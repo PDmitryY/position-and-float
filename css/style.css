@@ -1,29 +1,80 @@
 body {
-    height: 2000;
+    height: 2000px;
+}
+h1, h3 {
+	padding: 0px;
+	margin: 0px;
 }
 
-.page1 .page2 .page3 {
-    height: 750 px;
-    width: 520 px;
+header h3{
+	margin: 
+}
+
+.page1, .page2, .page3 {
+    height: 750px;
+    width: 520px;
     border: solid 2px;
 }
 
 .page1 {
-    
+	z-index: 3;
+    background: #ebebeb;
+	border: 2px solid black;
+	position: absolute;
+	left: 50%;
+	margin: 0px -260px;
+	padding: 40px 40px 20px 30px;
+}
+
+.coffe {
+	margin: 0px 20px 0px 0px;
+}
+
+.coffe img {
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+
+.css2 {
+	margin: 0px 0px 20px 0px;
+}
+
+.css2 img {
+	float: right;
 }
 
 .page2 {
-    
+    z-index: 2;
+	background: #cccccc;
+	border: 2px solid black;
+	position: absolute;
+	left: 50%;
+	margin: 10px -250px;
+	padding: 40px 40px 20px 30px;
 }
 
 .page3 {
-    
+	z-index: 1;
+	background: #acacac;
+	border: 2px solid black;
+	position: absolute;
+	left: 50%;
+	margin: 20px -240px;
+	padding: 40px 40px 20px 30px;
 }
 
 .share{
     position: fixed;
-    height: 70 px;
-    width: 80 px;
+	right: 0px;
+	bottom: 100px;
+    height: 70px;
+    width: 80px;
     border: solid 1px;
-    background: chocolate;
+    background: #fbaf5d;
+}
+
+.share img {
+	height: 25px;
+	width: 80px;
+	padding: 10px 0px;
 }
