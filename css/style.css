@@ -1,5 +1,8 @@
 body {
     height: 2000px;
+    font-family: 'Myriad Pro';
+    color: #333333;
+    font-size: 12px;
 }
 h1, h3 {
 	padding: 0px;
@@ -26,21 +29,36 @@ header h3{
 	padding: 40px 40px 20px 30px;
 }
 
-.coffe {
-	margin: 0px 20px 0px 0px;
+.page1 .marker{
+    position:relative;
+    left: 520px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 2px;
+    border-color:  #000000;
+    border-style: solid;
+    background-color:  #f68e56;
+    width: 107px;
+    height: 31px;
 }
 
-.coffe img {
+.coffe {
 	float: left;
 	margin: 0px 20px 0px 0px;
 }
 
 .css2 {
-	margin: 0px 0px 20px 0px;
+	float: right;
+    margin: 0px 0px 20px 0px;
 }
 
-.css2 img {
-	float: right;
+header h3{
+    margin:  10px 0px 10px 0px;
+}
+
+section img {
+    display: inline-block;
+    margin: 5px 20px 5px 0px;
 }
 
 .page2 {
@@ -49,7 +67,7 @@ header h3{
 	border: 2px solid black;
 	position: absolute;
 	left: 50%;
-	margin: 10px -250px;
+	margin: 20px -240px;
 	padding: 40px 40px 20px 30px;
 }
 
@@ -59,22 +77,32 @@ header h3{
 	border: 2px solid black;
 	position: absolute;
 	left: 50%;
-	margin: 20px -240px;
+	margin: 40px -220px;
 	padding: 40px 40px 20px 30px;
 }
 
 .share{
+    z-index: 4;
     position: fixed;
 	right: 0px;
 	bottom: 100px;
-    height: 70px;
-    width: 80px;
-    border: solid 1px;
+    height: 69px;
+    width: 87px;
+    border: solid 1px #362f2d;
     background: #fbaf5d;
+    text-align: center;
 }
 
 .share img {
 	height: 25px;
 	width: 80px;
 	padding: 10px 0px;
+}
+
+footer {
+    font-family: 'Myriad Pro';
+    color: #333333;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
 }
