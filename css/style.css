@@ -50,6 +50,11 @@ header h3{
 
 .page3 h1 {
     font-size: 24px;
+    margin: 0px 0px 10px 0px;
+}
+
+.page3 p {
+    margin: 0px 0px;
 }
 
 .coffe {
@@ -57,9 +62,13 @@ header h3{
 	margin: 0px 20px 0px 0px;
 }
 
+.css2-contaner {
+    margin-top: 20px
+}
+
 .css2 {
 	float: right;
-    margin: 0px 0px 20px 0px;
+    margin: 5px 0px 0px 0px;
 }
 
 .jokes {
@@ -92,7 +101,7 @@ header h3{
 footer {
     font-size: 9px;
     text-align: center;
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 
 .page2 {
