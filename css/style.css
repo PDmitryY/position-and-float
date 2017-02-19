@@ -1,16 +1,23 @@
 body {
     height: 2000px;
-    font-family: 'Myriad Pro';
-    color: #333333;
+    font-family: 'PT Sans', sans-serif;
+    color:  #333333;
     font-size: 12px;
+    font-weight: 400;
+    text-align: left;
 }
-h1, h3 {
-	padding: 0px;
-	margin: 0px;
+
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: "";
+        clear: both;
+        height: 0;
 }
 
 header h3{
-	margin: 
+    font-size: 18px;
+    margin:  10px 0px 10px 0px;
 }
 
 .page1, .page2, .page3 {
@@ -19,8 +26,7 @@ header h3{
     border: solid 2px;
 }
 
-.page1 {
-	z-index: 3;
+.page3 {
     background: #ebebeb;
 	border: 2px solid black;
 	position: absolute;
@@ -29,9 +35,9 @@ header h3{
 	padding: 40px 40px 20px 30px;
 }
 
-.page1 .marker{
-    position:relative;
-    left: 520px;
+.page3 .marker{
+    position: absolute;
+    left: 570px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     border-width: 2px;
@@ -40,6 +46,10 @@ header h3{
     background-color:  #f68e56;
     width: 107px;
     height: 31px;
+}
+
+.page3 h1 {
+    font-size: 24px;
 }
 
 .coffe {
@@ -52,17 +62,40 @@ header h3{
     margin: 0px 0px 20px 0px;
 }
 
-header h3{
-    margin:  10px 0px 10px 0px;
+.jokes {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin: 10px 0px;
 }
 
-section img {
-    display: inline-block;
-    margin: 5px 20px 5px 0px;
+.column1 {
+    float: left;
+    width: 50%
+}
+
+.column2 {
+    float: right;
+    width: 50%;
+}
+
+.column1 img {
+    float: left;
+    margin: 5px 0px;
+}
+
+.column2 img {
+    float: right;
+    margin: 5px 0px;
+}
+
+footer {
+    font-size: 9px;
+    text-align: center;
+    margin: 10px 0px;
 }
 
 .page2 {
-    z-index: 2;
 	background: #cccccc;
 	border: 2px solid black;
 	position: absolute;
@@ -71,8 +104,20 @@ section img {
 	padding: 40px 40px 20px 30px;
 }
 
-.page3 {
-	z-index: 1;
+.page2 .marker {
+    position: absolute;
+    left: 550px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 2px;
+    border-color:  #000000;
+    border-style: solid;
+    background-color:  #39b54a;
+    width: 95px;
+    height: 31px;
+}
+
+.page1 {
 	background: #acacac;
 	border: 2px solid black;
 	position: absolute;
@@ -81,8 +126,21 @@ section img {
 	padding: 40px 40px 20px 30px;
 }
 
+.page1 .marker {
+    position: absolute;
+    left: 510px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 2px;
+    border-color:  #000000;
+    border-style: solid;
+    background-color:  #00aeef;
+    width: 95px;
+    height: 31px;
+}
+
 .share{
-    z-index: 4;
+    z-index: 2;
     position: fixed;
 	right: 0px;
 	bottom: 100px;
@@ -97,12 +155,4 @@ section img {
 	height: 25px;
 	width: 80px;
 	padding: 10px 0px;
-}
-
-footer {
-    font-family: 'Myriad Pro';
-    color: #333333;
-    font-size: 9px;
-    font-weight: 400;
-    text-align: center;
 }
